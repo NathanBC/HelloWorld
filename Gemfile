@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 
 gem 'rails', '4.1.5'
 gem 'sass-rails', '~> 4.0.3'
@@ -12,7 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
-
+gem 'devise', '~> 3.1.0.rc2'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
